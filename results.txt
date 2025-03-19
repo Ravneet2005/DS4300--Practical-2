@@ -1,0 +1,4972 @@
+Extracted text length: 2212 characters
+
+
+Using embedding model: thenlper/gte-base
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.11 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 133.22 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.08 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 140.22 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 145.45 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.07 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 149.68 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.11 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 154.27 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 150.91 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 151.02 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 151.09 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 151.16 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - chroma storage time: 0.09 sec
+ - Memory usage: 147.93 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.09 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 131.35 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 123.98 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 119.01 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 114.24 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 114.85 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 114.98 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 115.08 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 115.12 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 115.25 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.08 sec
+ - qdrant storage time: 0.06 sec
+ - Memory usage: 114.11 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - qdrant storage time: 0.06 sec
+ - Memory usage: 114.86 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 114.98 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.09 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 115.16 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 112.30 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - qdrant storage time: 0.06 sec
+ - Memory usage: 112.61 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - qdrant storage time: 0.06 sec
+ - Memory usage: 112.68 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 112.76 MB
+
+Using embedding model: hkunlp/instructor-xl
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in redis
+ - Chunking time: 0.08 sec
+ - Embedding time: 1.86 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 59.39 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 1.22 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 71.41 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 1.59 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 77.28 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 3.49 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 46.46 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 1.69 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 61.10 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 1.67 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 65.67 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.87 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 68.86 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.83 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 69.52 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.83 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 70.48 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.93 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 77.67 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 1.18 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 99.88 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 1.54 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 122.93 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.89 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 128.23 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 1.69 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 127.15 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 1.68 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 126.26 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.86 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 104.29 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.84 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 110.73 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.83 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 110.93 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.94 sec
+ - qdrant storage time: 0.13 sec
+ - Memory usage: 96.02 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 1.19 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 99.00 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 1.55 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 101.95 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.88 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 101.88 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.72 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 79.55 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 1.70 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 74.23 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.84 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 82.01 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.80 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 78.69 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.79 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 79.91 MB
+
+Using embedding model: sentence-transformers/all-mpnet-base-v2
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.18 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 95.34 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.09 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 102.76 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 109.12 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.07 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 122.78 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.11 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 133.70 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 135.84 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 136.05 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 138.99 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 139.68 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 139.73 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.08 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 145.84 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 146.04 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 147.62 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.11 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 148.34 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.11 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 151.45 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 152.29 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 153.53 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 153.52 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 153.57 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.07 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 152.94 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 149.97 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 150.39 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 149.15 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 148.61 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 149.84 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 150.76 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 153.95 MB
+
+QUERY RESULTS:
+
+
+Vector DB: redis, Chunk Size: 200, Overlap: 0
+
+Vector DB: redis, Chunk Size: 200, Overlap: 50
+
+Vector DB: redis, Chunk Size: 200, Overlap: 100
+
+Vector DB: redis, Chunk Size: 500, Overlap: 0
+
+Vector DB: redis, Chunk Size: 500, Overlap: 50
+
+Vector DB: redis, Chunk Size: 500, Overlap: 100
+
+Vector DB: redis, Chunk Size: 1000, Overlap: 0
+
+Vector DB: redis, Chunk Size: 1000, Overlap: 50
+
+Vector DB: redis, Chunk Size: 1000, Overlap: 100
+ - Score: 0.2015, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: chroma, Chunk Size: 200, Overlap: 0
+ - Score: 1.9151, Text:  valid state to another 
+ ■  Ex: if a transaction transfers money, it must debit one account and 
+ c...
+ - Score: 1.9331, Text:  ○  Precompiled Stored Procedures: Speeds up frequently used operations. 
+ ○  Data Replication & Par...
+ - Score: 1.9768, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: chroma, Chunk Size: 200, Overlap: 50
+ - Score: 1.8981, Text:  systems. 
+ ○  Query Optimization: Uses execution plans to improve query speed. 
+ ○  Caching & Prefe...
+ - Score: 1.9040, Text: ) 
+ ○  Transactions help ensure: 
+ ■  Data integrity – prevents incomplete updates 
+ ■  Error recove...
+ - Score: 1.9168, Text:  isolation: 
+ ●  Dirty Read – a transaction reads uncommitted changes from 
+ another transaction ...
+
+Vector DB: chroma, Chunk Size: 200, Overlap: 100
+ - Score: 1.9040, Text: ) 
+ ○  Transactions help ensure: 
+ ■  Data integrity – prevents incomplete updates 
+ ■  Error recove...
+ - Score: 1.9151, Text:  valid state to another 
+ ■  Ex: if a transaction transfers money, it must debit one account and 
+ c...
+ - Score: 1.9331, Text:  ○  Precompiled Stored Procedures: Speeds up frequently used operations. 
+ ○  Data Replication & Par...
+
+Vector DB: chroma, Chunk Size: 500, Overlap: 0
+ - Score: 1.9789, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: chroma, Chunk Size: 500, Overlap: 50
+ - Score: 1.9168, Text:  isolation: 
+ ●  Dirty Read – a transaction reads uncommitted changes from 
+ another transaction ...
+ - Score: 1.9789, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: chroma, Chunk Size: 500, Overlap: 100
+ - Score: 1.9151, Text:  valid state to another 
+ ■  Ex: if a transaction transfers money, it must debit one account and 
+ c...
+ - Score: 1.9789, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: chroma, Chunk Size: 1000, Overlap: 0
+ - Score: 1.9789, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: chroma, Chunk Size: 1000, Overlap: 50
+ - Score: 1.9789, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: chroma, Chunk Size: 1000, Overlap: 100
+ - Score: 1.9789, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: qdrant, Chunk Size: 200, Overlap: 0
+ - Score: 0.1990, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+ - Score: 0.1697, Text:  ○  Precompiled Stored Procedures: Speeds up frequently used operations. 
+ ○  Data Replication & Par...
+ - Score: 0.1228, Text:  valid state to another 
+ ■  Ex: if a transaction transfers money, it must debit one account and 
+ c...
+
+Vector DB: qdrant, Chunk Size: 200, Overlap: 50
+ - Score: 0.2141, Text:  systems. 
+ ○  Query Optimization: Uses execution plans to improve query speed. 
+ ○  Caching & Prefe...
+ - Score: 0.1990, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+ - Score: 0.1612, Text: ) 
+ ○  Transactions help ensure: 
+ ■  Data integrity – prevents incomplete updates 
+ ■  Error recove...
+
+Vector DB: qdrant, Chunk Size: 200, Overlap: 100
+ - Score: 0.1990, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+ - Score: 0.1944, Text: �  Indexing: Speeds up searches by organizing data. 
+ ○  Storage Control: Optimizes data layout for ...
+ - Score: 0.1697, Text:  ○  Precompiled Stored Procedures: Speeds up frequently used operations. 
+ ○  Data Replication & Par...
+
+Vector DB: qdrant, Chunk Size: 500, Overlap: 0
+ - Score: 0.2015, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: qdrant, Chunk Size: 500, Overlap: 50
+ - Score: 0.2015, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+ - Score: 0.0150, Text:  isolation: 
+ ●  Dirty Read – a transaction reads uncommitted changes from 
+ another transaction ...
+
+Vector DB: qdrant, Chunk Size: 500, Overlap: 100
+ - Score: 0.2015, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+ - Score: 0.1228, Text:  valid state to another 
+ ■  Ex: if a transaction transfers money, it must debit one account and 
+ c...
+
+Vector DB: qdrant, Chunk Size: 1000, Overlap: 0
+ - Score: 0.2015, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: qdrant, Chunk Size: 1000, Overlap: 50
+ - Score: 0.2015, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: qdrant, Chunk Size: 1000, Overlap: 100
+ - Score: 0.2015, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+Extracted text length: 13461 characters
+
+
+Using embedding model: thenlper/gte-base
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 22 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 0.91 sec
+ - redis storage time: 0.05 sec
+ - Memory usage: 577.98 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 30 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.66 sec
+ - redis storage time: 0.06 sec
+ - Memory usage: 450.16 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 44 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.95 sec
+ - redis storage time: 0.09 sec
+ - Memory usage: 421.18 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 9 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.62 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 388.80 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 10 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.52 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 406.03 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 11 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.55 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 418.75 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 5 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.37 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 427.27 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 5 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.30 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 428.30 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 5 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.31 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 428.77 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 22 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.44 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 429.42 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 30 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.61 sec
+ - chroma storage time: 0.04 sec
+ - Memory usage: 395.73 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 44 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.84 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 388.34 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 9 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.42 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 390.49 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 10 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.47 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 391.41 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.54 sec
+ - chroma storage time: 0.03 sec
+ - Memory usage: 207.83 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.33 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 165.97 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.31 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 159.00 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.32 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 152.70 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 22 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.46 sec
+ - qdrant storage time: 0.15 sec
+ - Memory usage: 104.57 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 30 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.62 sec
+ - qdrant storage time: 0.21 sec
+ - Memory usage: 105.99 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 44 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.90 sec
+ - qdrant storage time: 0.16 sec
+ - Memory usage: 107.56 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 9 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.43 sec
+ - qdrant storage time: 0.13 sec
+ - Memory usage: 109.63 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 10 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.48 sec
+ - qdrant storage time: 0.12 sec
+ - Memory usage: 114.86 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.51 sec
+ - qdrant storage time: 0.12 sec
+ - Memory usage: 116.16 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.31 sec
+ - qdrant storage time: 0.11 sec
+ - Memory usage: 120.95 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.30 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 115.42 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.31 sec
+ - qdrant storage time: 0.11 sec
+ - Memory usage: 114.25 MB
+
+Using embedding model: hkunlp/instructor-xl
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 22 chunks in redis
+ - Chunking time: 0.13 sec
+ - Embedding time: 50.82 sec
+ - redis storage time: 0.07 sec
+ - Memory usage: 22.25 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 30 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 70.10 sec
+ - redis storage time: 0.14 sec
+ - Memory usage: 39.51 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 44 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 131.67 sec
+ - redis storage time: 0.15 sec
+ - Memory usage: 48.81 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 9 chunks in redis
+ - Chunking time: 0.05 sec
+ - Embedding time: 85.81 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 45.10 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 10 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 41.66 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 47.69 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 11 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 44.52 sec
+ - redis storage time: 0.05 sec
+ - Memory usage: 50.16 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 5 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 48.56 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 46.23 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 5 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 85.03 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 32.52 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 5 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 101.41 sec
+ - redis storage time: 0.12 sec
+ - Memory usage: 25.27 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 22 chunks in chroma
+ - Chunking time: 0.08 sec
+ - Embedding time: 44.95 sec
+ - chroma storage time: 0.47 sec
+ - Memory usage: 31.25 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 30 chunks in chroma
+ - Chunking time: 0.27 sec
+ - Embedding time: 64.25 sec
+ - chroma storage time: 0.39 sec
+ - Memory usage: 18.82 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 44 chunks in chroma
+ - Chunking time: 0.07 sec
+ - Embedding time: 121.99 sec
+ - chroma storage time: 0.27 sec
+ - Memory usage: 32.46 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 9 chunks in chroma
+ - Chunking time: 0.13 sec
+ - Embedding time: 45.78 sec
+ - chroma storage time: 0.20 sec
+ - Memory usage: 29.60 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 10 chunks in chroma
+ - Chunking time: 0.13 sec
+ - Embedding time: 16.82 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 39.24 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.02 sec
+ - Embedding time: 23.21 sec
+ - chroma storage time: 0.10 sec
+ - Memory usage: 40.02 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 35.91 sec
+ - chroma storage time: 0.10 sec
+ - Memory usage: 38.29 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.08 sec
+ - Embedding time: 24.17 sec
+ - chroma storage time: 0.03 sec
+ - Memory usage: 40.50 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 16.10 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 41.62 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 22 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 18.76 sec
+ - qdrant storage time: 0.82 sec
+ - Memory usage: 31.61 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 30 chunks in qdrant
+ - Chunking time: 0.05 sec
+ - Embedding time: 20.55 sec
+ - qdrant storage time: 1.00 sec
+ - Memory usage: 33.44 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 44 chunks in qdrant
+ - Chunking time: 0.05 sec
+ - Embedding time: 25.43 sec
+ - qdrant storage time: 0.31 sec
+ - Memory usage: 34.28 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 9 chunks in qdrant
+ - Chunking time: 0.03 sec
+ - Embedding time: 19.33 sec
+ - qdrant storage time: 0.27 sec
+ - Memory usage: 34.89 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 10 chunks in qdrant
+ - Chunking time: 0.05 sec
+ - Embedding time: 14.16 sec
+ - qdrant storage time: 0.55 sec
+ - Memory usage: 35.65 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.07 sec
+ - Embedding time: 21.14 sec
+ - qdrant storage time: 0.32 sec
+ - Memory usage: 28.39 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.02 sec
+ - Embedding time: 12.72 sec
+ - qdrant storage time: 0.16 sec
+ - Memory usage: 37.00 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 12.15 sec
+ - qdrant storage time: 0.31 sec
+ - Memory usage: 38.09 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 15.55 sec
+ - qdrant storage time: 0.61 sec
+ - Memory usage: 33.04 MB
+
+Using embedding model: sentence-transformers/all-mpnet-base-v2
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 22 chunks in redis
+ - Chunking time: 0.06 sec
+ - Embedding time: 1.55 sec
+ - redis storage time: 0.08 sec
+ - Memory usage: 128.89 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 30 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.68 sec
+ - redis storage time: 0.09 sec
+ - Memory usage: 141.95 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 44 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.01 sec
+ - redis storage time: 0.09 sec
+ - Memory usage: 166.49 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 9 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 1.73 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 192.98 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 10 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.52 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 209.19 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.57 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 223.59 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 5 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.32 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 238.90 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 5 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.24 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 240.28 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 5 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.24 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 241.44 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 22 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.47 sec
+ - chroma storage time: 0.06 sec
+ - Memory usage: 243.39 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 30 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.65 sec
+ - chroma storage time: 0.03 sec
+ - Memory usage: 254.09 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 44 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.94 sec
+ - chroma storage time: 0.07 sec
+ - Memory usage: 254.59 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 9 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.44 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 255.52 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 10 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.55 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 257.16 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.76 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 252.71 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.43 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 239.85 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.41 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 230.86 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.35 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 231.18 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 22 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.62 sec
+ - qdrant storage time: 0.16 sec
+ - Memory usage: 222.18 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 30 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.75 sec
+ - qdrant storage time: 0.16 sec
+ - Memory usage: 215.15 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 44 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 1.02 sec
+ - qdrant storage time: 0.17 sec
+ - Memory usage: 218.09 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 9 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.49 sec
+ - qdrant storage time: 0.12 sec
+ - Memory usage: 202.41 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 10 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.60 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 178.71 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.67 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 180.11 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.29 sec
+ - qdrant storage time: 0.13 sec
+ - Memory usage: 183.43 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.28 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 182.68 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.28 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 184.27 MB
+
+QUERY RESULTS:
+
+
+Vector DB: redis, Chunk Size: 200, Overlap: 0
+
+Vector DB: redis, Chunk Size: 200, Overlap: 50
+
+Vector DB: redis, Chunk Size: 200, Overlap: 100
+
+Vector DB: redis, Chunk Size: 500, Overlap: 0
+
+Vector DB: redis, Chunk Size: 500, Overlap: 50
+
+Vector DB: redis, Chunk Size: 500, Overlap: 100
+
+Vector DB: redis, Chunk Size: 1000, Overlap: 0
+
+Vector DB: redis, Chunk Size: 1000, Overlap: 50
+
+Vector DB: redis, Chunk Size: 1000, Overlap: 100
+ - Score: 0.1471, Text: Module  02  –  Data  Structure’s  Effects  on  Performance  Foundations  Slide  Deck 
+➔  Searching: ...
+ - Score: 0.0897, Text: :  while  true  do{                                              Start  an  inﬁnite  loop,  which  w...
+ - Score: 0.0886, Text:  ",  end="")  root.traverseInOrder()  print("\nPost  order  Traversal:  ",  end="")  root.traversePo...
+
+Vector DB: chroma, Chunk Size: 200, Overlap: 0
+ - Score: 1.8541, Text:  visiting  subtrees  -  Postorder:  Left  →  Right  →  Root  Print  after  visiting  both  subtrees ...
+ - Score: 1.8586, Text: Order()          if self.right:             self.right.traversePostOrder()          print(self.val, ...
+ - Score: 1.8653, Text: .right,  key)       return node  
+ 
+AVL  Tree  Rotations  Diagram 
+-  Version  of  Binary  search  T...
+
+Vector DB: chroma, Chunk Size: 200, Overlap: 50
+ - Score: 1.8359, Text: Order()          print(self.val,  end='  ')          if self.right:             self.right.traverseI...
+ - Score: 1.8541, Text:  visiting  subtrees  -  Postorder:  Left  →  Right  →  Root  Print  after  visiting  both  subtrees ...
+ - Score: 1.8740, Text:   imbalance  z,  three  nodes  leaning  left  ◆  Left  Right  insertion  ●  Node  of  imbalance  z, ...
+
+Vector DB: chroma, Chunk Size: 200, Overlap: 100
+ - Score: 1.8511, Text:   node  of  a  tree  
+-  Height:  #  of  edges   -  Binary  trees  can  have  at  most  two  childre...
+ - Score: 1.8531, Text:  if self.left:             self.left.traversePreOrder()          if self.right:             self.rig...
+ - Score: 1.8541, Text:  visiting  subtrees  -  Postorder:  Left  →  Right  →  Root  Print  after  visiting  both  subtrees ...
+
+Vector DB: chroma, Chunk Size: 500, Overlap: 0
+ - Score: 1.8550, Text:   node  of  a  tree  
+-  Height:  #  of  edges   -  Binary  trees  can  have  at  most  two  childre...
+ - Score: 1.8971, Text:  loop.  8:  }  9:  if  key[y]  >  k  then  left[y]  ←  z                            If  y's  key  is...
+ - Score: 1.8978, Text: faster
+ 
+disk
+ 
+access
+ 
+ 
+B  Plus  Trees  
+➔  Minimize  disk  access,  faster  than  a  disk  read,...
+
+Vector DB: chroma, Chunk Size: 500, Overlap: 50
+ - Score: 1.8889, Text: :  while  true  do{                                              Start  an  inﬁnite  loop,  which  w...
+ - Score: 1.8906, Text:   the  tree  and  maintain  balance  factor  at  each  node  ◆  Difference  must  equal  -1,0,1  to ...
+ - Score: 1.8942, Text:  ",  end="")  root.traverseInOrder()  print("\nPost  order  Traversal:  ",  end="")  root.traversePo...
+
+Vector DB: chroma, Chunk Size: 500, Overlap: 100
+ - Score: 1.8790, Text: Order()          if self.right:             self.right.traversePostOrder()          print(self.val, ...
+ - Score: 1.8934, Text:   imbalance  z,  three  nodes  leaning  left  ◆  Left  Right  insertion  ●  Node  of  imbalance  z, ...
+ - Score: 1.8971, Text:  loop.  8:  }  9:  if  key[y]  >  k  then  left[y]  ←  z                            If  y's  key  is...
+
+Vector DB: chroma, Chunk Size: 1000, Overlap: 0
+ - Score: 1.8978, Text: faster
+ 
+disk
+ 
+access
+ 
+ 
+B  Plus  Trees  
+➔  Minimize  disk  access,  faster  than  a  disk  read,...
+ - Score: 1.9057, Text:  loop.  8:  }  9:  if  key[y]  >  k  then  left[y]  ←  z                            If  y's  key  is...
+ - Score: 1.9157, Text:  B         \          C   Balanced:    
+      B  (balance  factor:  0)       /  \      A    C  (bala...
+
+Vector DB: chroma, Chunk Size: 1000, Overlap: 50
+ - Score: 1.8963, Text:   ←  left[y]                                    Set  z  to  be  the  left  child  of  y.  6:     els...
+ - Score: 1.9108, Text: .key:   #  Right-Right  Case             return left_rotate(root)          else:   #  Right-Left  Ca...
+ - Score: 1.9240, Text: :  0)   
+def  left_rotate(A):      B  =  A.right   #  B  is  the  right  child  of  A      T2  =  B....
+
+Vector DB: chroma, Chunk Size: 1000, Overlap: 100
+ - Score: 1.8846, Text: :  while  true  do{                                              Start  an  inﬁnite  loop,  which  w...
+ - Score: 1.8965, Text:  ",  end="")  root.traverseInOrder()  print("\nPost  order  Traversal:  ",  end="")  root.traversePo...
+ - Score: 1.9141, Text:   LR:  use  a  left  rotation  on  left  child  node,  then  right  rotation  on  
+unbalanced
+ 
+node...
+
+Vector DB: qdrant, Chunk Size: 200, Overlap: 0
+ - Score: 0.1821, Text:  
+y  is  a  temporary  pointer  used  to  traverse  the  tree.  
+Explanation  of  the  BST  Search  ...
+ - Score: 0.1587, Text: Module  02  –  Data  Structure’s  Effects  on  Performance  Foundations  Slide  Deck 
+➔  Searching: ...
+ - Score: 0.1559, Text: the
+ 
+property
+ 
+of
+ 
+binary
+ 
+search
+ 
+trees,
+ 
+where
+ 
+the
+ 
+right
+ 
+child
+ 
+contains
+ 
+values
+ 
+g...
+
+Vector DB: qdrant, Chunk Size: 200, Overlap: 50
+ - Score: 0.1840, Text:   the  current  node’s  key  is  smaller  than  the  target  key  (k),  so  we  
+move
+ 
+to
+ 
+the
+ 
+r...
+ - Score: 0.1757, Text:   key  k in  a  binary  search  tree  starting  from  
+node
+ x.  Here's  how  it  works,  step  by  ...
+ - Score: 0.1587, Text: Module  02  –  Data  Structure’s  Effects  on  Performance  Foundations  Slide  Deck 
+➔  Searching: ...
+
+Vector DB: qdrant, Chunk Size: 200, Overlap: 100
+ - Score: 0.1821, Text:  
+y  is  a  temporary  pointer  used  to  traverse  the  tree.  
+Explanation  of  the  BST  Search  ...
+ - Score: 0.1666, Text:  and  we  
+return
+ 
+this
+ 
+node
+ 
+(return
+ 
+y).
+ 
+4:  else  if  key[y]  <  k  then  y  ←  right[y]  ...
+ - Score: 0.1587, Text: Module  02  –  Data  Structure’s  Effects  on  Performance  Foundations  Slide  Deck 
+➔  Searching: ...
+
+Vector DB: qdrant, Chunk Size: 500, Overlap: 0
+ - Score: 0.1830, Text:  
+y  is  a  temporary  pointer  used  to  traverse  the  tree.  
+Explanation  of  the  BST  Search  ...
+ - Score: 0.1548, Text: 
+ 
+y.
+ 
+In
+ 
+a
+ 
+binary
+ 
+search
+ 
+tree,
+ 
+the
+ 
+left
+ 
+child
+ 
+contains
+ 
+values
+ 
+smaller
+ 
+than
+ ...
+ - Score: 0.1490, Text: Module  02  –  Data  Structure’s  Effects  on  Performance  Foundations  Slide  Deck 
+➔  Searching: ...
+
+Vector DB: qdrant, Chunk Size: 500, Overlap: 50
+ - Score: 0.1747, Text:   the  current  node’s  key  is  smaller  than  the  target  key  (k),  so  we  
+move
+ 
+to
+ 
+the
+ 
+r...
+ - Score: 0.1490, Text: Module  02  –  Data  Structure’s  Effects  on  Performance  Foundations  Slide  Deck 
+➔  Searching: ...
+ - Score: 0.1156, Text:   in  each  node  (3)   ➔  M  +  1  =  Maximum  #  of  children  of  each  node  (4)  ➔  Insertion: ...
+
+Vector DB: qdrant, Chunk Size: 500, Overlap: 100
+ - Score: 0.1592, Text:   is  
+nil
+,
+ 
+which
+ 
+means
+ 
+either
+ 
+the
+ 
+key
+ 
+has
+ 
+been
+ 
+found
+ 
+or
+ 
+we've
+ 
+reached
+ 
+a
+ 
+...
+ - Score: 0.1490, Text: Module  02  –  Data  Structure’s  Effects  on  Performance  Foundations  Slide  Deck 
+➔  Searching: ...
+ - Score: 0.1129, Text: faster
+ 
+disk
+ 
+access
+ 
+ 
+B  Plus  Trees  
+➔  Minimize  disk  access,  faster  than  a  disk  read,...
+
+Vector DB: qdrant, Chunk Size: 1000, Overlap: 0
+ - Score: 0.1872, Text:  
+y  is  a  temporary  pointer  used  to  traverse  the  tree.  
+Explanation  of  the  BST  Search  ...
+ - Score: 0.1471, Text: Module  02  –  Data  Structure’s  Effects  on  Performance  Foundations  Slide  Deck 
+➔  Searching: ...
+ - Score: 0.1129, Text: faster
+ 
+disk
+ 
+access
+ 
+ 
+B  Plus  Trees  
+➔  Minimize  disk  access,  faster  than  a  disk  read,...
+
+Vector DB: qdrant, Chunk Size: 1000, Overlap: 50
+ - Score: 0.1638, Text:   is  the  key  you  are  searching  for.  
+➔
+ 
+x  is  the  starting  node  (root  node)  from  whic...
+ - Score: 0.1471, Text: Module  02  –  Data  Structure’s  Effects  on  Performance  Foundations  Slide  Deck 
+➔  Searching: ...
+ - Score: 0.1392, Text: .key:   #  Right-Right  Case             return left_rotate(root)          else:   #  Right-Left  Ca...
+
+Vector DB: qdrant, Chunk Size: 1000, Overlap: 100
+ - Score: 0.1471, Text: Module  02  –  Data  Structure’s  Effects  on  Performance  Foundations  Slide  Deck 
+➔  Searching: ...
+ - Score: 0.0897, Text: :  while  true  do{                                              Start  an  inﬁnite  loop,  which  w...
+ - Score: 0.0886, Text:  ",  end="")  root.traverseInOrder()  print("\nPost  order  Traversal:  ",  end="")  root.traversePo...
+Extracted text length: 2212 characters
+
+
+Using embedding model: thenlper/gte-base
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 2.63 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 106.55 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.16 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 114.37 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.14 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 118.09 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.08 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 122.71 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.12 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 127.08 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 127.77 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 119.75 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.07 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 114.53 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 114.78 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 115.52 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.08 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 123.94 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 126.87 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 128.11 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 128.39 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 122.42 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 122.90 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 122.97 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 123.05 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - qdrant storage time: 0.12 sec
+ - Memory usage: 123.19 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.08 sec
+ - qdrant storage time: 0.25 sec
+ - Memory usage: 117.27 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.09 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 116.81 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 118.06 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.11 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 118.39 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.11 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 115.56 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.07 sec
+ - qdrant storage time: 0.06 sec
+ - Memory usage: 115.80 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 115.92 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 115.19 MB
+
+Using embedding model: hkunlp/instructor-xl
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in redis
+ - Chunking time: 0.07 sec
+ - Embedding time: 32.71 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 34.84 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 9.90 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 38.61 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 24.14 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 36.00 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 25.17 sec
+ - redis storage time: 0.05 sec
+ - Memory usage: 36.91 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in redis
+ - Chunking time: 0.07 sec
+ - Embedding time: 16.19 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 37.06 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 12.48 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 39.38 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 28.86 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 36.29 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in redis
+ - Chunking time: 0.05 sec
+ - Embedding time: 14.45 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 35.41 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 14.95 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 28.46 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 20.08 sec
+ - chroma storage time: 0.18 sec
+ - Memory usage: 34.29 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 21.83 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 40.22 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.02 sec
+ - Embedding time: 28.42 sec
+ - chroma storage time: 0.06 sec
+ - Memory usage: 39.73 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.08 sec
+ - Embedding time: 22.25 sec
+ - chroma storage time: 0.10 sec
+ - Memory usage: 38.41 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in chroma
+ - Chunking time: 0.05 sec
+ - Embedding time: 16.22 sec
+ - chroma storage time: 0.03 sec
+ - Memory usage: 36.96 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 49.49 sec
+ - chroma storage time: 0.09 sec
+ - Memory usage: 32.87 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.02 sec
+ - Embedding time: 21.04 sec
+ - chroma storage time: 0.19 sec
+ - Memory usage: 35.14 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.03 sec
+ - Embedding time: 20.42 sec
+ - chroma storage time: 0.11 sec
+ - Memory usage: 20.64 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.04 sec
+ - Embedding time: 37.67 sec
+ - chroma storage time: 0.23 sec
+ - Memory usage: 32.86 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in qdrant
+ - Chunking time: 0.10 sec
+ - Embedding time: 46.70 sec
+ - qdrant storage time: 1.45 sec
+ - Memory usage: 33.39 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in qdrant
+ - Chunking time: 0.07 sec
+ - Embedding time: 24.35 sec
+ - qdrant storage time: 0.54 sec
+ - Memory usage: 34.38 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.03 sec
+ - Embedding time: 17.49 sec
+ - qdrant storage time: 0.37 sec
+ - Memory usage: 37.18 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 8.55 sec
+ - qdrant storage time: 0.16 sec
+ - Memory usage: 33.21 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 11.71 sec
+ - qdrant storage time: 0.30 sec
+ - Memory usage: 37.85 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 12.46 sec
+ - qdrant storage time: 0.46 sec
+ - Memory usage: 37.84 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 30.07 sec
+ - qdrant storage time: 0.35 sec
+ - Memory usage: 33.22 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.03 sec
+ - Embedding time: 18.76 sec
+ - qdrant storage time: 0.47 sec
+ - Memory usage: 36.56 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.03 sec
+ - Embedding time: 19.45 sec
+ - qdrant storage time: 0.49 sec
+ - Memory usage: 36.75 MB
+
+Using embedding model: sentence-transformers/all-mpnet-base-v2
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in redis
+ - Chunking time: 0.05 sec
+ - Embedding time: 0.38 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 98.84 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.13 sec
+ - redis storage time: 0.01 sec
+ - Memory usage: 103.85 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.19 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 109.78 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.11 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 123.43 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.15 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 131.48 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.11 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 137.25 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 139.98 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 142.68 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in redis
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - redis storage time: 0.00 sec
+ - Memory usage: 144.57 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 143.59 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.08 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 148.31 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 147.88 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.05 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 148.17 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 149.79 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 150.07 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 151.32 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 152.68 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in chroma
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - chroma storage time: 0.00 sec
+ - Memory usage: 153.14 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 3 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - qdrant storage time: 0.18 sec
+ - Memory usage: 152.64 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 4 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.08 sec
+ - qdrant storage time: 0.18 sec
+ - Memory usage: 143.25 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 5 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 132.22 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 136.47 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 2 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.11 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 136.86 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 2 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.10 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 137.38 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 128.93 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 123.93 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 1 chunks in qdrant
+ - Chunking time: 0.00 sec
+ - Embedding time: 0.06 sec
+ - qdrant storage time: 0.07 sec
+ - Memory usage: 126.64 MB
+
+QUERY RESULTS:
+
+
+Vector DB: redis, Chunk Size: 200, Overlap: 0
+
+Vector DB: redis, Chunk Size: 200, Overlap: 50
+
+Vector DB: redis, Chunk Size: 200, Overlap: 100
+
+Vector DB: redis, Chunk Size: 500, Overlap: 0
+
+Vector DB: redis, Chunk Size: 500, Overlap: 50
+
+Vector DB: redis, Chunk Size: 500, Overlap: 100
+
+Vector DB: redis, Chunk Size: 1000, Overlap: 0
+
+Vector DB: redis, Chunk Size: 1000, Overlap: 50
+
+Vector DB: redis, Chunk Size: 1000, Overlap: 100
+ - Score: 0.2474, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: chroma, Chunk Size: 200, Overlap: 0
+ - Score: 1.9932, Text: .right,  key)       return node  
+ 
+AVL  Tree  Rotations  Diagram 
+-  Version  of  Binary  search  T...
+ - Score: 2.0056, Text: (A):      #  Step  1:  Right  rotation  on  the  right  child  of  A     A.right  =  right_rotate(A....
+ - Score: 2.0141, Text:   imbalance  z,  three  nodes  leaning  left  ◆  Left  Right  insertion  ●  Node  of  imbalance  z, ...
+
+Vector DB: chroma, Chunk Size: 200, Overlap: 50
+ - Score: 1.9964, Text:   None         self.height  =  1  #  Height  of  the  node  (leaf  nodes  have  height  1)  def get_...
+ - Score: 2.0073, Text: ) 
+ ○  Transactions help ensure: 
+ ■  Data integrity – prevents incomplete updates 
+ ■  Error recove...
+ - Score: 2.0141, Text:   imbalance  z,  three  nodes  leaning  left  ◆  Left  Right  insertion  ●  Node  of  imbalance  z, ...
+
+Vector DB: chroma, Chunk Size: 200, Overlap: 100
+ - Score: 1.9932, Text: .right,  key)       return node  
+ 
+AVL  Tree  Rotations  Diagram 
+-  Version  of  Binary  search  T...
+ - Score: 1.9964, Text:   None         self.height  =  1  #  Height  of  the  node  (leaf  nodes  have  height  1)  def get_...
+ - Score: 2.0056, Text: (A):      #  Step  1:  Right  rotation  on  the  right  child  of  A     A.right  =  right_rotate(A....
+
+Vector DB: chroma, Chunk Size: 500, Overlap: 0
+ - Score: 2.0272, Text:  >   ➔  Rebalancing  the  cases  ◆  LL:  use  a  single  right  rotation   
+       
+
+Unbalanced:    ...
+ - Score: 2.0275, Text:  T3  =  y.right       #  Perform  rotation     y.right  =  z      z.left  =  T3       #  Update  hei...
+ - Score: 2.0276, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: chroma, Chunk Size: 500, Overlap: 50
+ - Score: 2.0200, Text:   LR:  use  a  left  rotation  on  left  child  node,  then  right  rotation  on  
+unbalanced
+ 
+node...
+ - Score: 2.0229, Text:  B  (balance  factor:  0)   Left  Rotation        C  (balance  factor:  0)       /  \      A    B  (...
+ - Score: 2.0267, Text:   the  tree  and  maintain  balance  factor  at  each  node  ◆  Difference  must  equal  -1,0,1  to ...
+
+Vector DB: chroma, Chunk Size: 500, Overlap: 100
+ - Score: 2.0087, Text:   imbalance  z,  three  nodes  leaning  left  ◆  Left  Right  insertion  ●  Node  of  imbalance  z, ...
+ - Score: 2.0183, Text: (A):      #  Step  1:  Right  rotation  on  the  right  child  of  A     A.right  =  right_rotate(A....
+ - Score: 2.0276, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: chroma, Chunk Size: 1000, Overlap: 0
+ - Score: 2.0276, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+ - Score: 2.0370, Text:  B         \          C   Balanced:    
+      B  (balance  factor:  0)       /  \      A    C  (bala...
+ - Score: 2.0404, Text:  loop.  8:  }  9:  if  key[y]  >  k  then  left[y]  ←  z                            If  y's  key  is...
+
+Vector DB: chroma, Chunk Size: 1000, Overlap: 50
+ - Score: 2.0092, Text:   ←  left[y]                                    Set  z  to  be  the  left  child  of  y.  6:     els...
+ - Score: 2.0276, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+ - Score: 2.0338, Text: :  0)   
+def  left_rotate(A):      B  =  A.right   #  B  is  the  right  child  of  A      T2  =  B....
+
+Vector DB: chroma, Chunk Size: 1000, Overlap: 100
+ - Score: 2.0153, Text:   LR:  use  a  left  rotation  on  left  child  node,  then  right  rotation  on  
+unbalanced
+ 
+node...
+ - Score: 2.0276, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+ - Score: 2.0290, Text: :  while  true  do{                                              Start  an  inﬁnite  loop,  which  w...
+
+Vector DB: qdrant, Chunk Size: 200, Overlap: 0
+ - Score: 0.2969, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+ - Score: 0.2230, Text:  ○  Precompiled Stored Procedures: Speeds up frequently used operations. 
+ ○  Data Replication & Par...
+ - Score: 0.1695, Text:  valid state to another 
+ ■  Ex: if a transaction transfers money, it must debit one account and 
+ c...
+
+Vector DB: qdrant, Chunk Size: 200, Overlap: 50
+ - Score: 0.3190, Text:  systems. 
+ ○  Query Optimization: Uses execution plans to improve query speed. 
+ ○  Caching & Prefe...
+ - Score: 0.2969, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+ - Score: 0.1935, Text: ) 
+ ○  Transactions help ensure: 
+ ■  Data integrity – prevents incomplete updates 
+ ■  Error recove...
+
+Vector DB: qdrant, Chunk Size: 200, Overlap: 100
+ - Score: 0.3864, Text: �  Indexing: Speeds up searches by organizing data. 
+ ○  Storage Control: Optimizes data layout for ...
+ - Score: 0.2969, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+ - Score: 0.2230, Text:  ○  Precompiled Stored Procedures: Speeds up frequently used operations. 
+ ○  Data Replication & Par...
+
+Vector DB: qdrant, Chunk Size: 500, Overlap: 0
+ - Score: 0.2474, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: qdrant, Chunk Size: 500, Overlap: 50
+ - Score: 0.2474, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+ - Score: 0.1077, Text:  isolation: 
+ ●  Dirty Read – a transaction reads uncommitted changes from 
+ another transaction ...
+
+Vector DB: qdrant, Chunk Size: 500, Overlap: 100
+ - Score: 0.2474, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+ - Score: 0.1695, Text:  valid state to another 
+ ■  Ex: if a transaction transfers money, it must debit one account and 
+ c...
+
+Vector DB: qdrant, Chunk Size: 1000, Overlap: 0
+ - Score: 0.2474, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: qdrant, Chunk Size: 1000, Overlap: 50
+ - Score: 0.2474, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+
+Vector DB: qdrant, Chunk Size: 1000, Overlap: 100
+ - Score: 0.2474, Text:  Module 3 – Moving Beyond the Relational Model 
+ ●  Benefits of the relational model 
+ ○  Relational...
+Extracted text length: 31374 characters
+
+
+Using embedding model: thenlper/gte-base
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 5.54 sec
+ - redis storage time: 0.13 sec
+ - Memory usage: 102.97 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 6.29 sec
+ - redis storage time: 0.13 sec
+ - Memory usage: 96.66 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 2.19 sec
+ - redis storage time: 0.20 sec
+ - Memory usage: 154.22 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 7.22 sec
+ - redis storage time: 0.08 sec
+ - Memory usage: 84.07 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.33 sec
+ - redis storage time: 0.09 sec
+ - Memory usage: 112.41 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 1.31 sec
+ - redis storage time: 0.07 sec
+ - Memory usage: 114.41 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.95 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 121.75 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 0.66 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 112.69 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 0.93 sec
+ - redis storage time: 0.05 sec
+ - Memory usage: 126.84 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in chroma
+ - Chunking time: 0.02 sec
+ - Embedding time: 0.92 sec
+ - chroma storage time: 0.11 sec
+ - Memory usage: 141.36 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.15 sec
+ - chroma storage time: 0.07 sec
+ - Memory usage: 157.65 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.75 sec
+ - chroma storage time: 0.09 sec
+ - Memory usage: 172.26 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.99 sec
+ - chroma storage time: 0.03 sec
+ - Memory usage: 183.69 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.24 sec
+ - chroma storage time: 0.06 sec
+ - Memory usage: 147.35 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.18 sec
+ - chroma storage time: 0.06 sec
+ - Memory usage: 136.54 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.83 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 148.14 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.64 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 136.60 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.90 sec
+ - chroma storage time: 0.06 sec
+ - Memory usage: 120.97 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.84 sec
+ - qdrant storage time: 0.25 sec
+ - Memory usage: 136.11 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.13 sec
+ - qdrant storage time: 0.19 sec
+ - Memory usage: 160.83 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.74 sec
+ - qdrant storage time: 0.25 sec
+ - Memory usage: 181.09 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.17 sec
+ - qdrant storage time: 0.12 sec
+ - Memory usage: 94.53 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.23 sec
+ - qdrant storage time: 0.12 sec
+ - Memory usage: 108.56 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.17 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 90.92 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.79 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 99.98 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.63 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 102.19 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.91 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 106.01 MB
+
+Using embedding model: hkunlp/instructor-xl
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in redis
+ - Chunking time: 0.09 sec
+ - Embedding time: 16.25 sec
+ - redis storage time: 0.17 sec
+ - Memory usage: 70.38 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 19.22 sec
+ - redis storage time: 0.14 sec
+ - Memory usage: 175.61 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 33.99 sec
+ - redis storage time: 0.21 sec
+ - Memory usage: 101.97 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 61.02 sec
+ - redis storage time: 0.09 sec
+ - Memory usage: 49.60 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 85.64 sec
+ - redis storage time: 0.09 sec
+ - Memory usage: 65.85 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 107.92 sec
+ - redis storage time: 0.20 sec
+ - Memory usage: 13.14 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in redis
+ - Chunking time: 0.16 sec
+ - Embedding time: 32.58 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 59.14 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 10.35 sec
+ - redis storage time: 0.05 sec
+ - Memory usage: 42.36 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 11.71 sec
+ - redis storage time: 0.05 sec
+ - Memory usage: 102.18 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 14.75 sec
+ - chroma storage time: 0.22 sec
+ - Memory usage: 79.76 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 37.77 sec
+ - chroma storage time: 0.13 sec
+ - Memory usage: 54.87 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in chroma
+ - Chunking time: 0.04 sec
+ - Embedding time: 61.35 sec
+ - chroma storage time: 0.22 sec
+ - Memory usage: 34.11 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in chroma
+ - Chunking time: 0.34 sec
+ - Embedding time: 147.39 sec
+ - chroma storage time: 0.15 sec
+ - Memory usage: 31.14 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in chroma
+ - Chunking time: 0.05 sec
+ - Embedding time: 90.32 sec
+ - chroma storage time: 0.35 sec
+ - Memory usage: 24.46 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in chroma
+ - Chunking time: 0.17 sec
+ - Embedding time: 83.73 sec
+ - chroma storage time: 0.11 sec
+ - Memory usage: 27.86 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.05 sec
+ - Embedding time: 19.80 sec
+ - chroma storage time: 0.04 sec
+ - Memory usage: 45.06 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 10.96 sec
+ - chroma storage time: 0.03 sec
+ - Memory usage: 44.07 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 16.92 sec
+ - chroma storage time: 0.04 sec
+ - Memory usage: 94.26 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 22.36 sec
+ - qdrant storage time: 0.35 sec
+ - Memory usage: 88.13 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 35.14 sec
+ - qdrant storage time: 0.31 sec
+ - Memory usage: 62.25 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in qdrant
+ - Chunking time: 0.02 sec
+ - Embedding time: 48.24 sec
+ - qdrant storage time: 0.44 sec
+ - Memory usage: 58.79 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in qdrant
+ - Chunking time: 0.30 sec
+ - Embedding time: 53.70 sec
+ - qdrant storage time: 0.31 sec
+ - Memory usage: 25.89 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in qdrant
+ - Chunking time: 0.08 sec
+ - Embedding time: 112.73 sec
+ - qdrant storage time: 0.59 sec
+ - Memory usage: 17.75 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in qdrant
+ - Chunking time: 0.05 sec
+ - Embedding time: 296.99 sec
+ - qdrant storage time: 0.50 sec
+ - Memory usage: 22.15 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.04 sec
+ - Embedding time: 69.74 sec
+ - qdrant storage time: 0.26 sec
+ - Memory usage: 32.54 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.04 sec
+ - Embedding time: 70.62 sec
+ - qdrant storage time: 0.15 sec
+ - Memory usage: 37.53 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in qdrant
+ - Chunking time: 0.04 sec
+ - Embedding time: 25.99 sec
+ - qdrant storage time: 0.38 sec
+ - Memory usage: 40.23 MB
+
+Using embedding model: sentence-transformers/all-mpnet-base-v2
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 1.49 sec
+ - redis storage time: 0.16 sec
+ - Memory usage: 157.87 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 1.66 sec
+ - redis storage time: 0.12 sec
+ - Memory usage: 179.93 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 2.03 sec
+ - redis storage time: 0.28 sec
+ - Memory usage: 208.02 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 4.63 sec
+ - redis storage time: 0.06 sec
+ - Memory usage: 190.30 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 56.69 sec
+ - redis storage time: 0.06 sec
+ - Memory usage: 162.48 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 2.15 sec
+ - redis storage time: 0.05 sec
+ - Memory usage: 174.83 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.55 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 182.91 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.50 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 186.84 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.63 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 202.70 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in chroma
+ - Chunking time: 0.02 sec
+ - Embedding time: 0.81 sec
+ - chroma storage time: 0.08 sec
+ - Memory usage: 214.98 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.06 sec
+ - chroma storage time: 0.06 sec
+ - Memory usage: 254.69 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.65 sec
+ - chroma storage time: 0.06 sec
+ - Memory usage: 266.15 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.94 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 275.68 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.08 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 284.66 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.20 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 235.45 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.52 sec
+ - chroma storage time: 0.06 sec
+ - Memory usage: 248.36 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.51 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 254.68 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.56 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 226.84 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1030.21 sec
+ - qdrant storage time: 0.46 sec
+ - Memory usage: 78.88 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 2.41 sec
+ - qdrant storage time: 1.64 sec
+ - Memory usage: 73.48 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in qdrant
+ - Chunking time: 0.06 sec
+ - Embedding time: 25.29 sec
+ - qdrant storage time: 0.29 sec
+ - Memory usage: 59.70 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in qdrant
+ - Chunking time: 0.06 sec
+ - Embedding time: 1.06 sec
+ - qdrant storage time: 0.13 sec
+ - Memory usage: 96.44 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.14 sec
+ - qdrant storage time: 0.14 sec
+ - Memory usage: 93.63 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.30 sec
+ - qdrant storage time: 0.19 sec
+ - Memory usage: 52.90 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.53 sec
+ - qdrant storage time: 0.14 sec
+ - Memory usage: 85.74 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.59 sec
+ - qdrant storage time: 0.20 sec
+ - Memory usage: 80.56 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.61 sec
+ - qdrant storage time: 0.18 sec
+ - Memory usage: 81.24 MB
+
+COMPARISON TABLE:
+                                                                      chunking_time   db_time  embedding_time  memory_usage_mb
+chunk_size overlap model                                   vector_db                                                          
+200        0       hkunlp/instructor-xl                    chroma          0.011073  0.218263       14.750802        79.757812
+                                                           qdrant          0.010197  0.352131       22.356725        88.132812
+                                                           redis           0.087675  0.167759       16.254030        70.378906
+                   sentence-transformers/all-mpnet-base-v2 chroma          0.022453  0.075937        0.807254       214.980469
+                                                           qdrant          0.010612  0.463419     1030.213051        78.878906
+                                                           redis           0.018503  0.157017        1.486550       157.867188
+                   thenlper/gte-base                       chroma          0.018828  0.110071        0.919243       141.363281
+                                                           qdrant          0.007515  0.248749        0.837258       136.105469
+                                                           redis           0.041520  0.129942        5.535351       102.968750
+           50      hkunlp/instructor-xl                    chroma          0.014622  0.130487       37.774185        54.871094
+                                                           qdrant          0.010192  0.307546       35.139150        62.250000
+                                                           redis           0.037244  0.136219       19.222308       175.613281
+                   sentence-transformers/all-mpnet-base-v2 chroma          0.007332  0.055038        1.061654       254.687500
+                                                           qdrant          0.014439  1.642770        2.410566        73.480469
+                                                           redis           0.027178  0.122408        1.662287       179.925781
+                   thenlper/gte-base                       chroma          0.006775  0.070816        1.145192       157.652344
+                                                           qdrant          0.007045  0.193989        1.125163       160.832031
+                                                           redis           0.031119  0.130532        6.285182        96.664062
+           100     hkunlp/instructor-xl                    chroma          0.035089  0.224587       61.351041        34.109375
+                                                           qdrant          0.018880  0.442993       48.240197        58.792969
+                                                           redis           0.014050  0.206056       33.989541       101.968750
+                   sentence-transformers/all-mpnet-base-v2 chroma          0.006903  0.058081        1.646572       266.148438
+                                                           qdrant          0.056071  0.285586       25.289774        59.695312
+                                                           redis           0.010218  0.283530        2.032651       208.015625
+                   thenlper/gte-base                       chroma          0.007273  0.091538        1.747682       172.261719
+                                                           qdrant          0.008016  0.254067        1.738453       181.085938
+                                                           redis           0.010844  0.199138        2.191524       154.218750
+500        0       hkunlp/instructor-xl                    chroma          0.335674  0.149596      147.392073        31.140625
+                                                           qdrant          0.299304  0.311368       53.699033        25.894531
+                                                           redis           0.013261  0.089389       61.017001        49.597656
+                   sentence-transformers/all-mpnet-base-v2 chroma          0.006593  0.017362        0.942031       275.675781
+                                                           qdrant          0.057161  0.127506        1.057915        96.441406
+                                                           redis           0.024734  0.059399        4.630322       190.300781
+                   thenlper/gte-base                       chroma          0.006994  0.033260        0.987411       183.687500
+                                                           qdrant          0.006725  0.116563        1.166071        94.527344
+                                                           redis           0.010866  0.080984        7.215250        84.074219
+           50      hkunlp/instructor-xl                    chroma          0.051628  0.352249       90.321777        24.464844
+                                                           qdrant          0.082378  0.594979      112.728338        17.753906
+                                                           redis           0.042811  0.090036       85.637747        65.847656
+                   sentence-transformers/all-mpnet-base-v2 chroma          0.006610  0.020124        1.078814       284.660156
+                                                           qdrant          0.007755  0.137684        1.139263        93.628906
+                                                           redis           0.017443  0.060975       56.692835       162.480469
+                   thenlper/gte-base                       chroma          0.008766  0.061167        1.239670       147.351562
+                                                           qdrant          0.014454  0.115596        1.228770       108.562500
+                                                           redis           0.010938  0.088199        1.325951       112.406250
+           100     hkunlp/instructor-xl                    chroma          0.170062  0.108433       83.732957        27.859375
+                                                           qdrant          0.045456  0.502818      296.993916        22.148438
+                                                           redis           0.039643  0.202543      107.920354        13.136719
+                   sentence-transformers/all-mpnet-base-v2 chroma          0.006442  0.052125        1.195991       235.445312
+                                                           qdrant          0.007376  0.192890        1.304656        52.902344
+                                                           redis           0.010824  0.047379        2.149011       174.832031
+                   thenlper/gte-base                       chroma          0.008308  0.060805        1.184557       136.542969
+                                                           qdrant          0.009036  0.102817        1.172644        90.917969
+                                                           redis           0.019236  0.067634        1.306673       114.406250
+1000       0       hkunlp/instructor-xl                    chroma          0.046630  0.038633       19.799635        45.058594
+                                                           qdrant          0.040243  0.263430       69.739598        32.535156
+                                                           redis           0.157113  0.038754       32.577503        59.140625
+                   sentence-transformers/all-mpnet-base-v2 chroma          0.008823  0.061152        0.518876       248.355469
+                                                           qdrant          0.010625  0.143310        1.525348        85.738281
+                                                           redis           0.007827  0.024281        0.545253       182.914062
+                   thenlper/gte-base                       chroma          0.008305  0.023254        0.834751       148.136719
+                                                           qdrant          0.006921  0.092211        0.793945        99.984375
+                                                           redis           0.008310  0.039891        0.953888       121.753906
+           50      hkunlp/instructor-xl                    chroma          0.011901  0.032984       10.956727        44.066406
+                                                           qdrant          0.042188  0.152589       70.619291        37.527344
+                                                           redis           0.019748  0.046449       10.345183        42.359375
+                   sentence-transformers/all-mpnet-base-v2 chroma          0.008042  0.014230        0.507916       254.675781
+                                                           qdrant          0.007668  0.201209        0.589419        80.562500
+                                                           redis           0.006891  0.021036        0.499402       186.843750
+                   thenlper/gte-base                       chroma          0.007439  0.054961        0.635502       136.601562
+                                                           qdrant          0.011305  0.098465        0.631324       102.187500
+                                                           redis           0.018529  0.029725        0.660867       112.687500
+           100     hkunlp/instructor-xl                    chroma          0.013474  0.043651       16.921720        94.261719
+                                                           qdrant          0.037538  0.375801       25.987014        40.230469
+                                                           redis           0.023505  0.054773       11.706173       102.183594
+                   sentence-transformers/all-mpnet-base-v2 chroma          0.006740  0.048411        0.559155       226.843750
+                                                           qdrant          0.007666  0.176748        0.613531        81.242188
+                                                           redis           0.007469  0.040998        0.626399       202.695312
+                   thenlper/gte-base                       chroma          0.008895  0.057399        0.903258       120.968750
+                                                           qdrant          0.008228  0.084036        0.914855       106.007812
+                                                           redis           0.019767  0.049208        0.929125       126.835938Extracted text length: 31374 characters
+
+
+Using embedding model: thenlper/gte-base
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in redis
+ - Chunking time: 0.13 sec
+ - Embedding time: 1.66 sec
+ - redis storage time: 0.08 sec
+ - Memory usage: 690.87 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.30 sec
+ - redis storage time: 0.11 sec
+ - Memory usage: 730.31 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 2.03 sec
+ - redis storage time: 0.22 sec
+ - Memory usage: 779.86 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.96 sec
+ - redis storage time: 0.06 sec
+ - Memory usage: 797.35 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 1.27 sec
+ - redis storage time: 0.07 sec
+ - Memory usage: 533.76 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 1.19 sec
+ - redis storage time: 0.07 sec
+ - Memory usage: 550.87 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.74 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 565.36 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.63 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 538.93 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.79 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 552.71 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+Extracted text length: 31374 characters
+
+
+Using embedding model: thenlper/gte-base
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.92 sec
+ - redis storage time: 0.12 sec
+ - Memory usage: 657.54 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 1.12 sec
+ - redis storage time: 0.16 sec
+ - Memory usage: 668.14 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.71 sec
+ - redis storage time: 0.21 sec
+ - Memory usage: 384.16 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.94 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 143.35 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.09 sec
+ - redis storage time: 0.05 sec
+ - Memory usage: 131.43 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.16 sec
+ - redis storage time: 0.05 sec
+ - Memory usage: 127.15 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.67 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 121.61 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.62 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 131.55 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.92 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 114.36 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+Extracted text length: 31374 characters
+
+
+Using embedding model: thenlper/gte-base
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.12 sec
+ - redis storage time: 0.19 sec
+ - Memory usage: 385.34 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 1.15 sec
+ - redis storage time: 0.26 sec
+ - Memory usage: 371.02 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 1.90 sec
+ - redis storage time: 0.40 sec
+ - Memory usage: 153.80 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 0.92 sec
+ - redis storage time: 0.07 sec
+ - Memory usage: 159.99 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 1.26 sec
+ - redis storage time: 0.07 sec
+ - Memory usage: 112.29 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 1.16 sec
+ - redis storage time: 0.07 sec
+ - Memory usage: 122.55 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.65 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 126.92 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 0.62 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 119.77 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 0.73 sec
+ - redis storage time: 0.05 sec
+ - Memory usage: 124.11 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in chroma
+ - Chunking time: 0.02 sec
+ - Embedding time: 0.83 sec
+ - chroma storage time: 0.10 sec
+ - Memory usage: 126.06 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.07 sec
+ - chroma storage time: 0.04 sec
+ - Memory usage: 157.11 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.65 sec
+ - chroma storage time: 0.09 sec
+ - Memory usage: 164.56 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.91 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 172.19 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.11 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 164.14 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.13 sec
+ - chroma storage time: 0.06 sec
+ - Memory usage: 169.84 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.65 sec
+ - chroma storage time: 0.04 sec
+ - Memory usage: 175.48 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.61 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 180.57 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.72 sec
+ - chroma storage time: 0.04 sec
+ - Memory usage: 176.09 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.82 sec
+ - qdrant storage time: 0.23 sec
+ - Memory usage: 181.18 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.12 sec
+ - qdrant storage time: 0.20 sec
+ - Memory usage: 180.21 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.74 sec
+ - qdrant storage time: 0.18 sec
+ - Memory usage: 188.83 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.91 sec
+ - qdrant storage time: 0.11 sec
+ - Memory usage: 196.86 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.22 sec
+ - qdrant storage time: 0.12 sec
+ - Memory usage: 180.75 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.13 sec
+ - qdrant storage time: 0.13 sec
+ - Memory usage: 187.34 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.66 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 184.21 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.02 sec
+ - Embedding time: 0.62 sec
+ - qdrant storage time: 0.12 sec
+ - Memory usage: 181.02 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.72 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 155.06 MB
+
+Using embedding model: hkunlp/instructor-xl
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 13.41 sec
+ - redis storage time: 0.14 sec
+ - Memory usage: 129.37 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 18.66 sec
+ - redis storage time: 0.26 sec
+ - Memory usage: 66.80 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 65.39 sec
+ - redis storage time: 0.30 sec
+ - Memory usage: 22.53 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 37.33 sec
+ - redis storage time: 0.08 sec
+ - Memory usage: 18.21 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 45.81 sec
+ - redis storage time: 0.08 sec
+ - Memory usage: 21.55 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in redis
+ - Chunking time: 0.13 sec
+ - Embedding time: 49.04 sec
+ - redis storage time: 0.43 sec
+ - Memory usage: 43.04 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in redis
+ - Chunking time: 0.15 sec
+ - Embedding time: 41.93 sec
+ - redis storage time: 0.44 sec
+ - Memory usage: 42.11 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 47.86 sec
+ - redis storage time: 0.11 sec
+ - Memory usage: 28.98 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in redis
+ - Chunking time: 0.09 sec
+ - Embedding time: 65.86 sec
+ - redis storage time: 0.07 sec
+ - Memory usage: 20.17 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in chroma
+ - Chunking time: 0.04 sec
+ - Embedding time: 83.80 sec
+ - chroma storage time: 0.18 sec
+ - Memory usage: 29.75 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in chroma
+ - Chunking time: 0.04 sec
+ - Embedding time: 163.97 sec
+ - chroma storage time: 0.17 sec
+ - Memory usage: 31.04 MB
+
+Processing with chunk_size=200, overlap=100
+Extracted text length: 31374 characters
+
+
+Using embedding model: thenlper/gte-base
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in redis
+ - Chunking time: 0.13 sec
+ - Embedding time: 3.11 sec
+ - redis storage time: 0.09 sec
+ - Memory usage: 680.18 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.28 sec
+ - redis storage time: 0.12 sec
+ - Memory usage: 722.41 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 2.40 sec
+ - redis storage time: 0.19 sec
+ - Memory usage: 560.71 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.03 sec
+ - redis storage time: 0.05 sec
+ - Memory usage: 546.16 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.33 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 528.40 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.20 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 545.65 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.68 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 562.08 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 0.61 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 564.07 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 0.75 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 578.74 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.79 sec
+ - chroma storage time: 0.06 sec
+ - Memory usage: 583.41 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.06 sec
+ - chroma storage time: 0.04 sec
+ - Memory usage: 602.04 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.67 sec
+ - chroma storage time: 0.08 sec
+ - Memory usage: 560.91 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.92 sec
+ - chroma storage time: 0.03 sec
+ - Memory usage: 495.68 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.11 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 350.21 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.16 sec
+ - chroma storage time: 0.03 sec
+ - Memory usage: 283.69 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.66 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 292.45 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.60 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 297.52 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.71 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 305.46 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.78 sec
+ - qdrant storage time: 0.16 sec
+ - Memory usage: 313.56 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.07 sec
+ - qdrant storage time: 0.12 sec
+ - Memory usage: 317.81 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.61 sec
+ - qdrant storage time: 0.15 sec
+ - Memory usage: 328.32 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.89 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 339.85 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.06 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 325.66 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.12 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 327.18 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.68 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 307.98 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.62 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 308.21 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.71 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 310.45 MB
+
+Using embedding model: hkunlp/instructor-xl
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 14.01 sec
+ - redis storage time: 0.10 sec
+ - Memory usage: 98.43 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 19.52 sec
+ - redis storage time: 0.14 sec
+ - Memory usage: 66.28 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 29.89 sec
+ - redis storage time: 0.35 sec
+ - Memory usage: 85.37 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 24.46 sec
+ - redis storage time: 0.06 sec
+ - Memory usage: 23.73 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 48.55 sec
+ - redis storage time: 0.11 sec
+ - Memory usage: 38.39 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 44.68 sec
+ - redis storage time: 0.10 sec
+ - Memory usage: 41.30 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 34.94 sec
+ - redis storage time: 0.05 sec
+ - Memory usage: 45.11 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 16.29 sec
+ - redis storage time: 0.07 sec
+ - Memory usage: 33.12 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 30.61 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 45.02 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in chroma
+ - Chunking time: 0.03 sec
+ - Embedding time: 55.81 sec
+ - chroma storage time: 1.05 sec
+ - Memory usage: 13.54 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in chroma
+ - Chunking time: 0.04 sec
+ - Embedding time: 60.66 sec
+ - chroma storage time: 1.02 sec
+ - Memory usage: 38.70 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in chroma
+ - Chunking time: 0.08 sec
+ - Embedding time: 108.79 sec
+ - chroma storage time: 1.22 sec
+ - Memory usage: 36.88 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in chroma
+ - Chunking time: 0.03 sec
+ - Embedding time: 31.76 sec
+ - chroma storage time: 0.10 sec
+ - Memory usage: 31.62 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in chroma
+ - Chunking time: 0.07 sec
+ - Embedding time: 37.47 sec
+ - chroma storage time: 0.07 sec
+ - Memory usage: 33.31 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in chroma
+ - Chunking time: 0.04 sec
+ - Embedding time: 44.18 sec
+ - chroma storage time: 0.11 sec
+ - Memory usage: 26.02 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.05 sec
+ - Embedding time: 29.33 sec
+ - chroma storage time: 0.07 sec
+ - Memory usage: 23.95 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.04 sec
+ - Embedding time: 16.96 sec
+ - chroma storage time: 0.04 sec
+ - Memory usage: 26.45 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in chroma
+ - Chunking time: 0.04 sec
+ - Embedding time: 24.17 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 38.14 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in qdrant
+ - Chunking time: 0.04 sec
+ - Embedding time: 65.57 sec
+ - qdrant storage time: 1.03 sec
+ - Memory usage: 15.23 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in qdrant
+ - Chunking time: 0.05 sec
+ - Embedding time: 85.67 sec
+ - qdrant storage time: 0.55 sec
+ - Memory usage: 15.37 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in qdrant
+ - Chunking time: 0.04 sec
+ - Embedding time: 144.32 sec
+ - qdrant storage time: 0.58 sec
+ - Memory usage: 12.56 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in qdrant
+ - Chunking time: 0.03 sec
+ - Embedding time: 91.25 sec
+ - qdrant storage time: 0.68 sec
+ - Memory usage: 31.06 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in qdrant
+ - Chunking time: 0.05 sec
+ - Embedding time: 44.71 sec
+ - qdrant storage time: 0.55 sec
+ - Memory usage: 28.36 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in qdrant
+ - Chunking time: 0.04 sec
+ - Embedding time: 38.45 sec
+ - qdrant storage time: 1.28 sec
+ - Memory usage: 24.21 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.07 sec
+ - Embedding time: 30.30 sec
+ - qdrant storage time: 0.38 sec
+ - Memory usage: 22.07 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.04 sec
+ - Embedding time: 11.06 sec
+ - qdrant storage time: 0.24 sec
+ - Memory usage: 38.03 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in qdrant
+ - Chunking time: 0.02 sec
+ - Embedding time: 35.60 sec
+ - qdrant storage time: 0.41 sec
+ - Memory usage: 16.52 MB
+
+Using embedding model: sentence-transformers/all-mpnet-base-v2
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in redis
+ - Chunking time: 0.09 sec
+ - Embedding time: 3.64 sec
+ - redis storage time: 0.20 sec
+ - Memory usage: 114.53 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 1.87 sec
+ - redis storage time: 0.16 sec
+ - Memory usage: 139.16 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 2.40 sec
+ - redis storage time: 0.20 sec
+ - Memory usage: 121.14 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 2.97 sec
+ - redis storage time: 0.13 sec
+ - Memory usage: 94.23 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 2.60 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 118.28 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.30 sec
+ - redis storage time: 0.05 sec
+ - Memory usage: 113.38 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.61 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 132.12 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.61 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 137.59 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.94 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 151.32 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.37 sec
+ - chroma storage time: 0.66 sec
+ - Memory usage: 138.18 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.20 sec
+ - chroma storage time: 0.04 sec
+ - Memory usage: 166.64 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 2.37 sec
+ - chroma storage time: 0.11 sec
+ - Memory usage: 169.83 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.58 sec
+ - chroma storage time: 0.04 sec
+ - Memory usage: 123.89 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.43 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 121.54 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.59 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 124.29 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.74 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 125.96 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.69 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 131.75 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.80 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 136.40 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.08 sec
+ - qdrant storage time: 0.24 sec
+ - Memory usage: 141.71 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.48 sec
+ - qdrant storage time: 0.19 sec
+ - Memory usage: 155.94 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 2.31 sec
+ - qdrant storage time: 0.20 sec
+ - Memory usage: 150.86 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.43 sec
+ - qdrant storage time: 0.14 sec
+ - Memory usage: 126.83 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.61 sec
+ - qdrant storage time: 0.13 sec
+ - Memory usage: 99.14 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in qdrant
+ - Chunking time: 0.02 sec
+ - Embedding time: 1.50 sec
+ - qdrant storage time: 0.11 sec
+ - Memory usage: 117.91 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.02 sec
+ - Embedding time: 0.65 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 122.60 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.64 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 126.86 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.74 sec
+ - qdrant storage time: 0.32 sec
+ - Memory usage: 126.78 MB
+
+QUERY RESULTS:
+
+
+Vector DB: redis, Chunk Size: 200, Overlap: 0
+Extracted text length: 31374 characters
+
+
+Using embedding model: thenlper/gte-base
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in redis
+ - Chunking time: 0.12 sec
+ - Embedding time: 1.51 sec
+ - redis storage time: 0.10 sec
+ - Memory usage: 846.83 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 1.18 sec
+ - redis storage time: 0.15 sec
+ - Memory usage: 885.23 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 1.83 sec
+ - redis storage time: 0.21 sec
+ - Memory usage: 936.70 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 0.97 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 954.15 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.27 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 969.18 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.13 sec
+ - redis storage time: 0.04 sec
+ - Memory usage: 985.27 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.69 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 1001.14 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.59 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 1003.11 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.73 sec
+ - redis storage time: 0.02 sec
+ - Memory usage: 1016.59 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.80 sec
+ - chroma storage time: 0.04 sec
+ - Memory usage: 1017.45 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.05 sec
+ - chroma storage time: 0.04 sec
+ - Memory usage: 1020.02 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.60 sec
+ - chroma storage time: 0.09 sec
+ - Memory usage: 1021.87 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.89 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 1029.39 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.04 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 1014.20 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.09 sec
+ - chroma storage time: 0.03 sec
+ - Memory usage: 1015.50 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.63 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 1016.55 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.59 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 1021.20 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.69 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 1021.95 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.77 sec
+ - qdrant storage time: 0.13 sec
+ - Memory usage: 1026.71 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.06 sec
+ - qdrant storage time: 0.13 sec
+ - Memory usage: 1020.84 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.61 sec
+ - qdrant storage time: 0.14 sec
+ - Memory usage: 976.64 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.91 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 760.60 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.06 sec
+ - qdrant storage time: 0.10 sec
+ - Memory usage: 750.45 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.12 sec
+ - qdrant storage time: 0.09 sec
+ - Memory usage: 706.48 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.66 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 707.66 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.61 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 707.69 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.72 sec
+ - qdrant storage time: 0.08 sec
+ - Memory usage: 707.73 MB
+
+Using embedding model: hkunlp/instructor-xl
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 12.28 sec
+ - redis storage time: 0.11 sec
+ - Memory usage: 145.97 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 16.93 sec
+ - redis storage time: 0.17 sec
+ - Memory usage: 205.60 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 27.91 sec
+ - redis storage time: 0.24 sec
+ - Memory usage: 152.42 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 20.88 sec
+ - redis storage time: 0.06 sec
+ - Memory usage: 50.52 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in redis
+ - Chunking time: 0.05 sec
+ - Embedding time: 60.39 sec
+ - redis storage time: 0.15 sec
+ - Memory usage: 41.02 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in redis
+ - Chunking time: 0.06 sec
+ - Embedding time: 67.75 sec
+ - redis storage time: 0.78 sec
+ - Memory usage: 9.00 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in redis
+ - Chunking time: 0.16 sec
+ - Embedding time: 38.15 sec
+ - redis storage time: 0.06 sec
+ - Memory usage: 15.29 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in redis
+ - Chunking time: 0.05 sec
+ - Embedding time: 30.02 sec
+ - redis storage time: 0.06 sec
+ - Memory usage: 12.93 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in redis
+ - Chunking time: 0.05 sec
+ - Embedding time: 45.64 sec
+ - redis storage time: 0.12 sec
+ - Memory usage: 18.67 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in chroma
+ - Chunking time: 0.13 sec
+ - Embedding time: 79.66 sec
+ - chroma storage time: 1.79 sec
+ - Memory usage: 10.62 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in chroma
+ - Chunking time: 0.05 sec
+ - Embedding time: 98.63 sec
+ - chroma storage time: 1.45 sec
+ - Memory usage: 19.93 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in chroma
+ - Chunking time: 0.04 sec
+ - Embedding time: 135.26 sec
+ - chroma storage time: 0.55 sec
+ - Memory usage: 24.93 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in chroma
+ - Chunking time: 0.11 sec
+ - Embedding time: 38.73 sec
+ - chroma storage time: 0.08 sec
+ - Memory usage: 23.64 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in chroma
+ - Chunking time: 0.05 sec
+ - Embedding time: 62.04 sec
+ - chroma storage time: 0.08 sec
+ - Memory usage: 18.91 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in chroma
+ - Chunking time: 0.05 sec
+ - Embedding time: 49.47 sec
+ - chroma storage time: 0.37 sec
+ - Memory usage: 11.62 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.08 sec
+ - Embedding time: 39.65 sec
+ - chroma storage time: 0.15 sec
+ - Memory usage: 23.56 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.12 sec
+ - Embedding time: 25.35 sec
+ - chroma storage time: 0.04 sec
+ - Memory usage: 31.26 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in chroma
+ - Chunking time: 0.05 sec
+ - Embedding time: 42.81 sec
+ - chroma storage time: 0.08 sec
+ - Memory usage: 13.82 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in qdrant
+ - Chunking time: 0.18 sec
+ - Embedding time: 53.15 sec
+ - qdrant storage time: 1.75 sec
+ - Memory usage: 18.33 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in qdrant
+ - Chunking time: 0.06 sec
+ - Embedding time: 73.23 sec
+ - qdrant storage time: 1.51 sec
+ - Memory usage: 13.45 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in qdrant
+ - Chunking time: 0.04 sec
+ - Embedding time: 117.19 sec
+ - qdrant storage time: 0.97 sec
+ - Memory usage: 18.20 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in qdrant
+ - Chunking time: 0.04 sec
+ - Embedding time: 55.98 sec
+ - qdrant storage time: 0.47 sec
+ - Memory usage: 25.24 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in qdrant
+ - Chunking time: 0.05 sec
+ - Embedding time: 39.13 sec
+ - qdrant storage time: 1.16 sec
+ - Memory usage: 30.01 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in qdrant
+ - Chunking time: 0.04 sec
+ - Embedding time: 45.31 sec
+ - qdrant storage time: 0.38 sec
+ - Memory usage: 30.90 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.05 sec
+ - Embedding time: 29.03 sec
+ - qdrant storage time: 0.56 sec
+ - Memory usage: 18.06 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.09 sec
+ - Embedding time: 18.32 sec
+ - qdrant storage time: 0.65 sec
+ - Memory usage: 29.91 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in qdrant
+ - Chunking time: 0.10 sec
+ - Embedding time: 18.67 sec
+ - qdrant storage time: 0.32 sec
+ - Memory usage: 35.49 MB
+
+Using embedding model: sentence-transformers/all-mpnet-base-v2
+
+Using vector database: redis
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in redis
+ - Chunking time: 0.04 sec
+ - Embedding time: 8.60 sec
+ - redis storage time: 0.17 sec
+ - Memory usage: 77.53 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in redis
+ - Chunking time: 0.03 sec
+ - Embedding time: 1.31 sec
+ - redis storage time: 0.15 sec
+ - Memory usage: 122.38 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 3.64 sec
+ - redis storage time: 0.19 sec
+ - Memory usage: 78.73 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 1.42 sec
+ - redis storage time: 0.07 sec
+ - Memory usage: 101.58 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 5.34 sec
+ - redis storage time: 0.06 sec
+ - Memory usage: 101.58 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.50 sec
+ - redis storage time: 0.75 sec
+ - Memory usage: 112.64 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in redis
+ - Chunking time: 0.02 sec
+ - Embedding time: 2.04 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 104.39 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.54 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 118.27 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in redis
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.14 sec
+ - redis storage time: 0.03 sec
+ - Memory usage: 124.79 MB
+
+Using vector database: chroma
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.89 sec
+ - chroma storage time: 1.62 sec
+ - Memory usage: 81.04 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 2.06 sec
+ - chroma storage time: 0.21 sec
+ - Memory usage: 78.48 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 9.07 sec
+ - chroma storage time: 0.13 sec
+ - Memory usage: 38.61 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in chroma
+ - Chunking time: 0.03 sec
+ - Embedding time: 7.47 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 42.91 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 5.55 sec
+ - chroma storage time: 0.05 sec
+ - Memory usage: 84.84 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.58 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 86.15 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 2.94 sec
+ - chroma storage time: 0.02 sec
+ - Memory usage: 61.59 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.67 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 95.11 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in chroma
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.24 sec
+ - chroma storage time: 0.01 sec
+ - Memory usage: 92.98 MB
+
+Using vector database: qdrant
+
+Processing with chunk_size=200, overlap=0
+ - Stored 52 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.81 sec
+ - qdrant storage time: 0.66 sec
+ - Memory usage: 83.26 MB
+
+Processing with chunk_size=200, overlap=50
+ - Stored 70 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 1.58 sec
+ - qdrant storage time: 0.71 sec
+ - Memory usage: 107.42 MB
+
+Processing with chunk_size=200, overlap=100
+ - Stored 104 chunks in qdrant
+ - Chunking time: 0.02 sec
+ - Embedding time: 3.56 sec
+ - qdrant storage time: 0.39 sec
+ - Memory usage: 94.08 MB
+
+Processing with chunk_size=500, overlap=0
+ - Stored 21 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 3.01 sec
+ - qdrant storage time: 0.19 sec
+ - Memory usage: 83.49 MB
+
+Processing with chunk_size=500, overlap=50
+ - Stored 24 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 3.16 sec
+ - qdrant storage time: 1.08 sec
+ - Memory usage: 60.36 MB
+
+Processing with chunk_size=500, overlap=100
+ - Stored 26 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 2.49 sec
+ - qdrant storage time: 0.17 sec
+ - Memory usage: 86.81 MB
+
+Processing with chunk_size=1000, overlap=0
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 3.67 sec
+ - qdrant storage time: 0.19 sec
+ - Memory usage: 50.27 MB
+
+Processing with chunk_size=1000, overlap=50
+ - Stored 11 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 0.81 sec
+ - qdrant storage time: 0.16 sec
+ - Memory usage: 86.33 MB
+
+Processing with chunk_size=1000, overlap=100
+ - Stored 12 chunks in qdrant
+ - Chunking time: 0.01 sec
+ - Embedding time: 3.28 sec
+ - qdrant storage time: 0.21 sec
+ - Memory usage: 89.92 MB
+
+QUERY RESULTS:
+
+
+Vector DB: redis, Chunk Size: 200, Overlap: 0
+
+Vector DB: redis, Chunk Size: 200, Overlap: 50
+
+Vector DB: redis, Chunk Size: 200, Overlap: 100
+
+Vector DB: redis, Chunk Size: 500, Overlap: 0
+
+Vector DB: redis, Chunk Size: 500, Overlap: 50
+
+Vector DB: redis, Chunk Size: 500, Overlap: 100
+
+Vector DB: redis, Chunk Size: 1000, Overlap: 0
+
+Vector DB: redis, Chunk Size: 1000, Overlap: 50
+
+Vector DB: redis, Chunk Size: 1000, Overlap: 100
+ - Score: 0.2840, Text: �  Model  monitoring  (store  key  metrics  about  the  performance  of  the  model,  for  
+example
+...
+ - Score: 0.2474, Text: Module  3  –  Moving  Beyond  the  Relational  Model  ●  Benefits  of  the  relational  model  ○  Re...
+ - Score: 0.2469, Text:   stores  ordered  elements  ○  Use  Cases  ■  Implementing  message  queues  (e.g.,  order  process...
+
+Vector DB: chroma, Chunk Size: 200, Overlap: 0
+ - Score: 1.9668, Text:   Replication  lag  affects  read  consistency,  and  various  strategies  like  
+Read-After-Write
+ ...
+ - Score: 1.9747, Text:  ●  Benefits  of  replicating  (distributing)  data  ○  Scalability  &  High  Throughput  –  handles...
+ - Score: 1.9750, Text: click_rate':  0.75,  ■      'session_time':  180,   #  seconds  ■      'purchase_likelihood':  0.92 ...
+
+Vector DB: chroma, Chunk Size: 200, Overlap: 50
+ - Score: 1.9621, Text: 
+ 
+databases
+ ●  Origin  of  noSQL  databases  was  meant  for  non-SQL  databases  (in  1998)  but ...
+ - Score: 1.9668, Text:   Replication  lag  affects  read  consistency,  and  various  strategies  like  
+Read-After-Write
+ ...
+ - Score: 1.9720, Text:   CAP  theorem  limitations  ●  Choosing  the  right  database  depends  on  application  needs  (pe...
+
+Vector DB: chroma, Chunk Size: 200, Overlap: 100
+ - Score: 1.9621, Text: 
+ 
+databases
+ ●  Origin  of  noSQL  databases  was  meant  for  non-SQL  databases  (in  1998)  but ...
+ - Score: 1.9659, Text:   node  has  its  own  CPU,  memory,  
+and
+ 
+disk
+ ■  Nodes  communicate  via  a  network  and  are ...
+ - Score: 1.9668, Text:   Replication  lag  affects  read  consistency,  and  various  strategies  like  
+Read-After-Write
+ ...
+
+Vector DB: chroma, Chunk Size: 500, Overlap: 0
+ - Score: 1.9675, Text:  request  gets  a  response  (even  if  not  the  latest)  
+○  Partition  tolerance  –  the  system ...
+ - Score: 1.9764, Text: 
+ 
+databases
+ ●  Origin  of  noSQL  databases  was  meant  for  non-SQL  databases  (in  1998)  but ...
+ - Score: 1.9797, Text:  ●  Benefits  of  replicating  (distributing)  data  ○  Scalability  &  High  Throughput  –  handles...
+
+Vector DB: chroma, Chunk Size: 500, Overlap: 50
+ - Score: 1.9670, Text: ouchDB,
+ 
+Cassandra,
+ 
+DynamoDB
+ ■  CA  (Consistency  +  Availability):  Works  only  if  network  p...
+ - Score: 1.9697, Text: ,  often  replicated.  ■  MySQL,  PostgreSQL  support  replication/sharding  ■  NoSQL  databases  ar...
+ - Score: 1.9764, Text: 
+ 
+databases
+ ●  Origin  of  noSQL  databases  was  meant  for  non-SQL  databases  (in  1998)  but ...
+
+Vector DB: chroma, Chunk Size: 500, Overlap: 100
+ - Score: 1.9699, Text: the
+ 
+definition
+ 
+of
+ 
+consistency
+ 
+in
+ 
+CAP
+ 
+is
+ 
+different
+ 
+from
+ 
+that
+ 
+of
+ 
+ACID)
+ ○  Avail...
+ - Score: 1.9797, Text:  ●  Benefits  of  replicating  (distributing)  data  ○  Scalability  &  High  Throughput  –  handles...
+ - Score: 1.9824, Text: it.
+ ○  Optimistic  Concurrency  ■  Assumes  conflicts  are  rare,  so  transactions  don’t  lock  d...
+
+Vector DB: chroma, Chunk Size: 1000, Overlap: 0
+ - Score: 1.9804, Text:  ■  Examples:  Redis,  DynamoDB  ○  Document  Stores   ■  Stores  JSON-like  documents.  ■  Examples...
+ - Score: 1.9831, Text:   Expensive  joins  –  complex  queries  can  be  computationally  expensive  ○  Semi-structured/uns...
+ - Score: 1.9901, Text:  ●  Benefits  of  replicating  (distributing)  data  ○  Scalability  &  High  Throughput  –  handles...
+
+Vector DB: chroma, Chunk Size: 1000, Overlap: 50
+ - Score: 1.9749, Text:  sometimes  schemas  evolve  over  time  and  can  be  difficult  
+to
+ 
+manage
+ ○  Not  all  apps  m...
+ - Score: 1.9889, Text: fast  and  lightweight).  ○  Can  be  used  as:  ■  Key-Value  store  ■  Graph  Database  ■  Full-te...
+ - Score: 1.9950, Text: ures.
+ ■  Consistency  +  Partition  Tolerance:  Ensures  accurate  data  but  may  
+reject
+ 
+reques...
+
+Vector DB: chroma, Chunk Size: 1000, Overlap: 100
+ - Score: 1.9697, Text: ouchDB,
+ 
+Cassandra,
+ 
+DynamoDB
+ ■  CA  (Consistency  +  Availability):  Works  only  if  network  p...
+ - Score: 1.9763, Text: 
+ 
+databases
+ ●  Origin  of  noSQL  databases  was  meant  for  non-SQL  databases  (in  1998)  but ...
+ - Score: 1.9869, Text:  
+rolls
+ 
+back
+ 
+if
+ 
+insufficient
+ 
+funds
+ 
+exist,
+ 
+commits
+ 
+changes
+ 
+if
+ 
+all
+ 
+checks
+ 
+pass
+ ...
+
+Vector DB: qdrant, Chunk Size: 200, Overlap: 0
+ - Score: 0.3501, Text:  Row  Storage:  Column-oriented  storage  benefits  analytics;  
+row-oriented
+ 
+storage
+ 
+benefits
+ ...
+ - Score: 0.3120, Text:  ■  Examples:  Redis,  DynamoDB  ○  Document  Stores   ■  Stores  JSON-like  documents.  ■  Examples...
+ - Score: 0.3037, Text:  to  the  user  
+needs
+ 
+to
+ 
+be
+ 
+available
+ 
+across
+ 
+browsers,
+ 
+machines,
+ 
+sessions).
+ 
+○  Cach...
+
+Vector DB: qdrant, Chunk Size: 200, Overlap: 50
+ - Score: 0.3971, Text: operation
+…
+ 
+language,
+ 
+TZ,
+ 
+product
+ 
+or
+ 
+UI
+ 
+preferences).
+ ○  Shopping  Carts  (fast  storag...
+ - Score: 0.3955, Text: fast  and  lightweight).  ○  Can  be  used  as:  ■  Key-Value  store  ■  Graph  Database  ■  Full-te...
+ - Score: 0.3886, Text:   ○  Indexing:  Speeds  up  searches  by  organizing  data.  ○  Storage  Control:  Optimizes  data  ...
+
+Vector DB: qdrant, Chunk Size: 200, Overlap: 100
+ - Score: 0.3955, Text: fast  and  lightweight).  ○  Can  be  used  as:  ■  Key-Value  store  ■  Graph  Database  ■  Full-te...
+ - Score: 0.3512, Text: 
+ 
+and
+ 
+very
+ 
+fast).
+ ○  User  Profiles  &  Preferences  (quick  lookup  of  user  settings,  User...
+ - Score: 0.3501, Text:  Row  Storage:  Column-oriented  storage  benefits  analytics;  
+row-oriented
+ 
+storage
+ 
+benefits
+ ...
+
+Vector DB: qdrant, Chunk Size: 500, Overlap: 0
+ - Score: 0.3111, Text: 
+ 
+and
+ 
+very
+ 
+fast).
+ ○  User  Profiles  &  Preferences  (quick  lookup  of  user  settings,  User...
+ - Score: 0.2736, Text: INCRBY  user:1  age  2    #  Age  is  now  32  ●  Linked  lists  crash  course  ○  Sequential  data ...
+ - Score: 0.2658, Text: Module  3  –  Moving  Beyond  the  Relational  Model  ●  Benefits  of  the  relational  model  ○  Re...
+
+Vector DB: qdrant, Chunk Size: 500, Overlap: 50
+ - Score: 0.3052, Text: �  Model  monitoring  (store  key  metrics  about  the  performance  of  the  model,  for  
+example
+...
+ - Score: 0.2721, Text:   (LIFO)  ■  LLEN  key  —  Get  the  length  of  the  list  ■  LRANGE  key  start  stop  —  Get  a  ...
+ - Score: 0.2672, Text:  ensures  low  latency.  ■  Scalability:  Redis  can  store  millions  of  ML  feature  sets.  ■  Si...
+
+Vector DB: qdrant, Chunk Size: 500, Overlap: 100
+ - Score: 0.2825, Text:   field  inside  a  hash  ■  HGET  key  field  —  Retrieve  a  specific  field's  value  ■  HGETALL ...
+ - Score: 0.2753, Text:  to  the  user  
+needs
+ 
+to
+ 
+be
+ 
+available
+ 
+across
+ 
+browsers,
+ 
+machines,
+ 
+sessions).
+ 
+○  Cach...
+ - Score: 0.2658, Text: Module  3  –  Moving  Beyond  the  Relational  Model  ●  Benefits  of  the  relational  model  ○  Re...
+
+Vector DB: qdrant, Chunk Size: 1000, Overlap: 0
+ - Score: 0.2681, Text:  ■  Examples:  Redis,  DynamoDB  ○  Document  Stores   ■  Stores  JSON-like  documents.  ■  Examples...
+ - Score: 0.2614, Text: INCRBY  user:1  age  2    #  Age  is  now  32  ●  Linked  lists  crash  course  ○  Sequential  data ...
+ - Score: 0.2474, Text: Module  3  –  Moving  Beyond  the  Relational  Model  ●  Benefits  of  the  relational  model  ○  Re...
+
+Vector DB: qdrant, Chunk Size: 1000, Overlap: 50
+ - Score: 0.2978, Text:   push)  ■  LPOP  key  —  Remove  and  return  the  first  element  (FIFO)  ■  RPOP  key  —  Remove ...
+ - Score: 0.2679, Text: fast  and  lightweight).  ○  Can  be  used  as:  ■  Key-Value  store  ■  Graph  Database  ■  Full-te...
+ - Score: 0.2474, Text: Module  3  –  Moving  Beyond  the  Relational  Model  ●  Benefits  of  the  relational  model  ○  Re...
+
+Vector DB: qdrant, Chunk Size: 1000, Overlap: 100
+ - Score: 0.2840, Text: �  Model  monitoring  (store  key  metrics  about  the  performance  of  the  model,  for  
+example
+...
+ - Score: 0.2474, Text: Module  3  –  Moving  Beyond  the  Relational  Model  ●  Benefits  of  the  relational  model  ○  Re...
+ - Score: 0.2469, Text:   stores  ordered  elements  ○  Use  Cases  ■  Implementing  message  queues  (e.g.,  order  process...
